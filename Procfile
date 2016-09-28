@@ -1,1 +1,1 @@
-web: gunicornasada budgetit.wsgi -b 0.0.0.0:$PORT --log-file -
+web: gunicorn budgetit.wsgi -b 0.0.0.0:$PORT --log-file -
