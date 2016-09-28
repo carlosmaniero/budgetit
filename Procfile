@@ -1,1 +1,1 @@
-web: gunicorna budgetit.wsgi -b 0.0.0.0:8080 --log-file -
+web: gunicorn budgetit.wsgi -b 0.0.0.0:$PORT --log-file -
